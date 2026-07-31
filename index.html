@@ -54,10 +54,10 @@
     margin: 0 0 16px;
     opacity: 0.55;
   }
-  .card img {
+  .card object {
     width: 100%;
-    height: auto;
     display: block;
+    border: none;
   }
   footer {
     max-width: 1100px;
@@ -79,53 +79,53 @@
 
   <div class="card">
     <p class="card-label">Home Page</p>
-    <img src="animations/home-page.svg" alt="Home Page animation">
+    <object type="image/svg+xml" data="animations/home-page.svg" style="aspect-ratio: 1491 / 1731;"></object>
   </div>
 
   <div class="card">
     <p class="card-label">Why Fountain</p>
-    <img src="animations/why-fountain.svg" alt="Why Fountain animation">
+    <object type="image/svg+xml" data="animations/why-fountain.svg" style="aspect-ratio: 1491 / 1731;"></object>
   </div>
 
   <div class="card">
     <p class="card-label">Workflow Section — Hire</p>
-    <img src="animations/workflow-section-hire.svg" alt="Workflow Section Hire animation">
+    <object type="image/svg+xml" data="animations/workflow-section-hire.svg" style="aspect-ratio: 1220 / 1260;"></object>
   </div>
 
   <div class="card">
     <p class="card-label">Fountain Hire</p>
-    <img src="animations/fountain-hire.svg" alt="Fountain Hire animation">
+    <object type="image/svg+xml" data="animations/fountain-hire.svg" style="aspect-ratio: 1491 / 1731;"></object>
   </div>
 
   <div class="card">
     <p class="card-label">App Interactions</p>
-    <img src="animations/app-interactions.svg" alt="App Interactions animation">
+    <object type="image/svg+xml" data="animations/app-interactions.svg" style="aspect-ratio: 1600 / 1060;"></object>
   </div>
 
   <div class="card">
     <p class="card-label">App Interactions — Flow</p>
-    <img src="animations/app-interactions-flow.svg" alt="App Interactions Flow animation">
+    <object type="image/svg+xml" data="animations/app-interactions-flow.svg" style="aspect-ratio: 1500 / 1060;"></object>
   </div>
 
   <div class="card">
     <p class="card-label">Analytics — Openings</p>
-    <img src="animations/analytics-openings.svg" alt="Analytics Openings animation">
+    <object type="image/svg+xml" data="animations/analytics-openings.svg" style="aspect-ratio: 1500 / 1060;"></object>
   </div>
 
   <div class="card">
     <p class="card-label">Analytics — Applicants</p>
-    <img src="animations/analytics-applicants.svg" alt="Analytics Applicants animation">
+    <object type="image/svg+xml" data="animations/analytics-applicants.svg" style="aspect-ratio: 1500 / 1060;"></object>
   </div>
 
   <!--
     To add another animation:
     1. Drop the .svg file into the /animations folder
     2. Copy the block below, paste it before the closing </div> of .grid,
-       and update the label + filename
+       and update the label, filename, and aspect-ratio (from the SVG's viewBox)
 
     <div class="card">
       <p class="card-label">Your Label Here</p>
-      <img src="animations/your-file-name.svg" alt="description">
+      <object type="image/svg+xml" data="animations/your-file-name.svg" style="aspect-ratio: W / H;"></object>
     </div>
   -->
 
